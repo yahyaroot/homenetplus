@@ -51,21 +51,21 @@
       </nav>
 <!-- End Nav -->
 
- <!-- Section 1  -->
-<div class="md:flex md:justify-center h-full md:h-128 md:bg-cover md:bg-center shadow-xl" style="background-image: url('./image/background_detail_produk.png')" >
+ <!-- Start Section 1  -->
+<div class=" md:flex md:justify-center  md:h-128 md:bg-cover  md:bg-center shadow-md md:w-full" style="background-image: url('./image/background_detail_produk.png')" >
   
-<div class="flex flex-row container w-full h-full bg-white mt-16 rounded-xl  ">
+<div class="flex md:flex flex-col md:flex-row container w-full h-full bg-white  md:mt-16 rounded-none md:rounded-xl shadow-sm md:shadow-xl ">
 
-<div class=" flex flex-col justify-center items-center flex-none   ">
+<div class=" flex flex-col justify-center items-center  flex-1 md:flex-none ">
 
-  <div class=" flex  justify-center mx-5 bg-gray-100  rounded-md mt-4 h-full w-96 ">
+  <div class="flex  justify-center mx-5 bg-gray-100  rounded-md mt-4 h-full w-96 ">
  
    <img src="./image/Goodie_Bag.png" >
 
   </div>
 
 
-  <div class=" flex items-center mt-4 mb-4 ">
+  <div class="flex items-center mt-4 mb-4 ">
 
     <div class=" mx-2 flex-1 flex justify-center items-center h-28 w-32 bg-gray-100 rounded-md">
       <img class="h-24 " src="./image/Goodie_Bag.png" alt="" srcset="">
@@ -80,14 +80,10 @@
 
 </div>
 
-<div class="flex-1 bg-green-400">
-
-  <div class="container flex flex-col mx-20 my-10">
-
+<div class="ml-5 mr-5 md:ml-6 mt-4 flex-1 md:flex-1 flex flex-col ">
   <div class="title">
-    <h3 class="text-2xl text-white ">Mug HomeNet</h3>
+    <h3 class="text-2xl text-black ">Mug HomeNet</h3>
   </div>
-
 
   <div class="price mt-5">
     <h3 class="text-4xl font-semibold bg-gradient-to-r from-purple-gray to-purple-black  text-transparent bg-clip-text ">Rp.45.000</h3>
@@ -95,13 +91,12 @@
 
       <div class="container flex items-center justify-between mt-5 h-16 w-56">
 
-        <h6 class="text-white text-xl">Kuantitas</h6>
+        <h6 class="text-black text-xl">Kuantitas</h6>
 
-        <div class="custom-number-input h-7 w-32 ">
+        <div class="ml-6 custom-number-input h-7  ">
   
           <div class="flex flex-row h-9 w-full rounded-full ">
-         
-         
+        
             <button data-action="decrement" class=" bg-gray-300 text-gray-600 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l-xl cursor-pointer outline-none">
               <span class="m-auto text-2xl font-thin">−</span>
             </button>
@@ -120,33 +115,44 @@
       </div>
 
 
+      <div class="container flex flex-row items-center justify-start mt-5 h-16">
+
+       <div>
+         <h6 class="text-black text-xl ">Size</h6>
+       </div>
+
+         <div>
+
+      <button class=" bg-gray-300 w-4/5  mx-16 rounded-xl h-9 " type="button">One Size</button> 
+         </div>
+      </div>
+
 
       <div class="container flex flex-row  items-center justify-start mt-5 h-16 w-60">
-
-      <h6 class="text-white text-xl ">Size</h6>
-       <button class="bg-gray-300 w-96 mx-11 rounded-xl h-9" type="button">One Size</button>
+        <h6 class="text-black text-xl ">Stok</h6>
+         <button class="bg-gray-300 w-4/5 mx-16 rounded-xl h-9" type="button">20</button>
       </div>
 
-      
+<div class="container w-full flex flex-col md:flex-row mb-5 md:mb-1 mt-5 ">
 
-      <div class=" flex flex-row  items-center justify-start mt-5 h-16 w-full bg-slate-600 ">
-
-      <h6 class="text-white text-xl  bg-black w-52">Stok Total</h6>
-
-       <button class="bg-gray-300 w-96 mx-11 rounded-xl h-9" type="button">20</button>
-
-       
-        
-      </div>
-
-
-
-
-  </div>
-
-
+  <button class="flex justify-center items-center  h-11 rounded-xl   md:w-1/3  border-solid border-2 border-gray-300   " type="button">
+    
+    <img class="h-6" src="./image/icon/cart.png" alt="">  
+     <p class="ml-3"> Tambah Keranjang</p>
  
+   </button>
 
+
+  <button class="flex justify-center items-center h-11 rounded-xl  mt-3 md:mt-0 md:ml-4 ml-0 md:w-1/3 bg-gradient-to-r from-gold-black to-gold-light  text-transparent  " type="button">
+       
+     <p class=" text-white">Check Out</p>
+
+   </button>
+
+</div>
+
+     
+    
 
 </div>
 
@@ -156,6 +162,24 @@
 
 </div>
 <!-- End Section 1  -->
+
+
+
+<!-- Start Section 2 -->
+
+
+
+<div class="container-fluid mx-5 md:mx-20 flex flex-col justify-center   mt-10 md:mt-36 ">
+
+  <h1 class="text-3xl ">Deskripsi Barang</h1>
+  <p class="text-xl mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</div>
+
+
+
+
+<!-- End Section 2 -->
 
 
 

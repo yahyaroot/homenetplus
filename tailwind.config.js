@@ -5,8 +5,7 @@ module.exports = {
     extend: {
 
       backgroundImage: {
-        'banner-hero': "url('/image/background_banner.png')"
-       
+        'banner-hero': "url('/image/background_banner.png'),",
       },
 
       height: {
@@ -21,6 +20,10 @@ module.exports = {
       colors: {
         'purple-black': '#26063C',
         'purple-gray': '#8D2083',
+        'gold-light':'#B4862D',
+        'gold-black':'#977022'
+
+
       },
 
     
